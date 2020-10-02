@@ -1,0 +1,149 @@
+db.ventilators.insertMany([{"hid":"h1",
+... "vid":"h1v1",
+... "status":"occupied",
+... "name":"Apollo hospital",
+... },
+... {"hid":"h1",
+... "vid":"h1v2",
+... "status":"available",
+... "name":"Apollo hospital",
+... },
+... {"hid":"h1",
+... "vid":"h1v3",
+... "status":"available",
+... "name":"Apollo hospital",
+... },
+... {"hid":"h2",
+... "vid":"h2v1",
+... "status":"occupied",
+... "name":"Yashoda hospital",
+... },
+... {"hid":"h2",
+... "vid":"h2v2",
+... "status":"available",
+... "name":"Yashoda hospital",
+... },
+... {"hid":"h2",
+... "vid":"h2v3",
+... "status":"occupied",
+... "name":"Yashoda hospital",
+... },
+... {"hid":"h3",
+... "vid":"h3v1",
+... "status":"occupied",
+... "name":"Gandhi hospital",
+... },
+... {"hid":"h3",
+... "vid":"h3v2",
+... "status":"available",
+... "name":"Gandhi hospital",
+... },
+... {"hid":"h3",
+... "vid":"h3v3",
+... "status":"available",
+... "name":"Gandhi hospital",
+... },
+... {"hid":"h4",
+... "vid":"h4v1",
+... "status":"occupied",
+... "name":"Sunshine hospital",
+... },
+... {"hid":"h4",
+... "vid":"h4v2",
+... "status":"available",
+... "name":"Sunshine hospital",
+... },
+... {"hid":"h4",
+... "vid":"h4v3",
+... "status":"available",
+... "name":"Sunshine hospital",
+... }]);
+
+
+
+
+db.ventilators.find().pretty()
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebbf"),
+        "hid" : "h1",
+        "vid" : "h1v1",
+        "status" : "occupied",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc0"),
+        "hid" : "h1",
+        "vid" : "h1v2",
+        "status" : "available",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc1"),
+        "hid" : "h1",
+        "vid" : "h1v3",
+        "status" : "available",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc2"),
+        "hid" : "h2",
+        "vid" : "h2v1",
+        "status" : "occupied",
+        "name" : "Yashoda hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc3"),
+        "hid" : "h2",
+        "vid" : "h2v2",
+        "status" : "available",
+        "name" : "Yashoda hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc4"),
+        "hid" : "h2",
+        "vid" : "h2v3",
+        "status" : "occupied",
+        "name" : "Yashoda hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc5"),
+        "hid" : "h3",
+        "vid" : "h3v1",
+        "status" : "occupied",
+        "name" : "Gandhi hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc6"),
+        "hid" : "h3",
+        "vid" : "h3v2",
+        "status" : "available",
+        "name" : "Gandhi hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc7"),
+        "hid" : "h3",
+        "vid" : "h3v3",
+        "status" : "available",
+        "name" : "Gandhi hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc8"),
+        "hid" : "h4",
+        "vid" : "h4v1",
+        "status" : "occupied",
+        "name" : "Sunshine hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebc9"),
+        "hid" : "h4",
+        "vid" : "h4v2",
+        "status" : "available",
+        "name" : "Sunshine hospital"
+}
+{
+        "_id" : ObjectId("5f76df37e301709b6479ebca"),
+        "hid" : "h4",
+        "vid" : "h4v3",
+        "status" : "available",
+        "name" : "Sunshine hospital"
+}
